@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<!-- Personal website. Approved copy from Helen(!!!) Oleynikova  -->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,italic,700,400,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Marco Tranzatto</title>
+</head>
+<body>
+  <div class="page">
+      <h1>Marco Tranzatto</h1>
+      <div class="intro">
+        <div class="portrait">
+          <img src="images/marco.png">
+        </div>
+        <div class="intro_text">
+          <p>Hi, my name is Marco and I am working as Robotics Software Engineer at the <a href="http://www.rsl.ethz.ch/">Robotic Systems Lab (RSL)</a> of <a href="http://www.ethz.ch">ETH Zürich</a>. I am the lead engineer of the RSL sub-team of <a href="https://www.subt-cerberus.org/">CERBERUS</a>, which is currently competing in the <a href="https://subtchallenge.com/">Darpa SubT Challenge</a></p>
+          <p>Before joining RSL, I worked for one year for the <a href="http://www.asl.ethz.ch/">Autonomous Systems Lab (ASL)</a>, </p>
+          <p>[<a href="marcot@ethz.ch">marcot@ethz.c</a> | <a href="https://github.com/marco-tranzatto">github</a>]</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="page">
+    <h1>Publications</h1>
+    <div class="content">
+      <div class="pub_list">
+      <p>Marco Tranzatto, Rik Bähnemann, Michael Pantic, Marija Popović, Dominik Schindler, Mina Kamel, Marius Grimm, Jakob Widauer, Roland Siegwart, Juan Nieto, “<b>The ETH‐MAV team in the MBZ international robotics challenge</b>”. In <i>Journal of Field Robotics</i>, Janaury 2019.<br>
+        [<a href="publications/TODO.pdf">pdf</a> | <a href="publications/jfr_2019_mav_mbzirc_bibtex.txt">bibtex</a> | <a href="https://www.youtube.com/watch?v=DXYFAkjHeho&feature=youtu.be">video</a> | <a href="https://arxiv.org/abs/1710.08275">arxiv</a>]
+      </p>
+
+      <p>C Dario Bellicoso, Marko Bjelonic, Lorenz Wellhausen, Kai Holtmann, Fabian Günther, Marco Tranzatto, Péter Fankhauser, Marco Hutter, “<b>Advances in real‐world applications for legged robots</b>”. In <i>Journal of Field Robotics</i>, December 2018.<br>
+        [<a href="publications/TODO.pdf">pdf</a> | <a href="publications/jfr_2018_advanced_in_real_world_legged_robots_bibtex.txt">bibtex</a> | <a href="https://www.youtube.com/watch?v=qrJlMze_xhQ">video</a>]
+      </p>
+
+      <p>Jonas Wirz, Marco Tranzatto, Alex Liniger, Marcello Colombino, Henrik Hesse, Sergio Grammatico, “<b>AEOLUS, the ETH autonomous model sailboat</b>”. In <i>World Robotic Sailing championship and International Robotic Sailing Conference</i>, August 2015.<br>
+        [<a href="publications/TODO.pdf">pdf</a> | <a href="publications/wrsc_2015_aeolus_eth_bibtex.txt">bibtex</a>]
+      </p>
+
+      <p>Marco Tranzatto, Alex Liniger, Sergio Grammatico, Alberto Landi, “<b>The debut of Aeolus, the autonomous model sailboat of ETH Zurich</b>”. In <i>IEEE Oceans Conference</i>, May 2015.<br>
+        [<a href="publications/TODO.pdf">pdf</a> | <a href="publications/iee_2015_debut_of_aeolus_bibtext.txt">bibtex</a>]
+      </p>
+      </div>
+
+    </div>
+  </div>
+
+      <div class="page">
+        <h1>Selected Projects</h1>
+        <h2>ETH Zürich</h2>
+        <div class="content">
+          <div class="project-left">
+            <img src="images/heli_pioneer_small.jpg">
+            <p class="title_row"><b class="title">Online Visual-Inertial Based Localization for Robots</b> [<a href="publications/iros_2015_localization.pdf">paper 1</a> | <a href="publications/iros_2015_mav.pdf">paper 2</a>]</p>
+            <p>I worked on integrating embedded stereo camera and IMU combination and visual-inertial odometry into a sparse mapping framework. The main goal of this work was to enable real-time on-board localization against a sparse map. I then investigated building dense volumetric maps (used for path planning) from keyframes in the sparse map. We showed this working on-board an MAV and ground robot localizing against the same map, allowing the MAV to autonomously land on top of the ground robot given its location from localization.</p>
+          </div>
+          <div class="project-left">
+            <img src="images/fpga_vision_small.png">
+            <p class="title_row"><b class="title">High-Speed Vision for Quadrotors</b> [<a href="publications/iros_2014_realtime_lowlatency_hardware.pdf">paper 1</a> | <a href="publications/icra_2015_reactive_avoidance.pdf">paper 2</a>]</p>
+            <p>I integrated a high-speed vision system on FPGA onto a quadrotor system and designed a system for doing high-speed obstacle avoidance on a computationally constrained platform. I also wrote position estimators and position controllers to allow the quad to operate indoors and outdoors without GPS or Vicon using the <a href="https://pixhawk.org/modules/px4flow">PX4 optical flow</a> sensor. I also wrote calibration and processing for the Android-based mobile platform on the FPGA vision system.</p>
+          </div>
+        </div>
+        <h2>Google</h2>
+        <div class="content">
+          <div class="project-left">
+            <img src="images/sv_small.jpg">
+            <p class="title_row"><b class="title">Street Number Detection from Street View Imagery</b></p>
+            <p>I worked on the pipeline used to automatically detect and transcribe street numbers from imagery in order to improve maps data.</p>
+          </div>
+          <div class="project-left">
+            <img src="images/sv2_small.jpg">
+            <p class="title_row"><b class="title">Automatic Image Enhancement for Older Imagery</b></p>
+            <p>We created a system for automatically enhancing images using single-image HDR techniques. Learned ideal parameters for the algorithm by training a classifier based on data from a user study of preferences.</p>
+          </div>
+          <div class="project-left">
+            <img src="images/sv3_small.jpg">
+            <p class="title_row"><b class="title">Classification of Landmark Imagery</b></p>
+            <p>Designed features and trained classifiers for automatically detecting several types of attractive or important landmark imagery. For example, collected data and chose features for classifying imagery that looks over water or shows a city skyline.</p>
+          </div>
+        </div>
+
+        <h2>Willow Garage</h2>
+        <div class="content">
+          <div class="project-left">
+            <img src="images/turtlebot_arm_small.png">
+            <p class="title_row"><b class="title">TurtleBot Arm - Calibration and Applications</b> [<a href="http://wiki.ros.org/turtlebot_arm?distro=electric">website</a>]</p>
+            <p>Worked on a low-cost robot arm for hobbyist robotics. Built a system for robust camera-to-arm calibration, created documentation and assembly instructions for hobbyists, and created tools and demos.</p>
+          </div>
+          <div class="project-left">
+            <img src="images/vslam_small.jpg">
+            <p class="title_row"><b class="title">Visual SLAM</b> [<a href="http://wiki.ros.org/vslam">website</a> | <a href="https://www.youtube.com/watch?v=TR8BMZj-Udc">video</a>]</p>
+            <p>Worked on implementation of Visual SLAM (Simultaneous Localization and Mapping) using stereo image data in ROS (Robot Operating System). Developed and refined API, wrote documentation, and implemented new features such as integration of pointcloud matches from laser-based sensors into Visual SLAM.</p>
+          </div>
+        </div>
+
+        <h2>Olin College</h2>
+        <div class="content">
+          <div class="project-left">
+            <img src="images/scope_small.jpg">
+            <p class="title_row"><b class="title">Ping-Pong Playing Robot</b> &nbsp; Senior Consulting Project for ADSYS [<a href="https://www.youtube.com/watch?v=sxqWVtp4Vgo">video</a>]</p>
+            <p>Technical lead on team of 4 that designed, built, and programmed robot capable of playing ping-pong against human player. This was a technical demo for a high-speed vision system developed by a sponsor company. Was responsible for vision, detection, modeling, and state estimation of the ping-pong ball.</p>
+          </div>
+          <div class="project-left">
+            <img src="images/medea_small.jpg">
+            <p class="title_row"><b class="title">Autonomous Shore Navigation Using Marine Radar</b> [<a href="#oceans"oceans>paper</a> | <a href="https://www.youtube.com/watch?v=pTDT7HkfwJM">video</a>]</p>
+            <p>Worked on an autonomoous marine surface vehicle, based on a 12 foot Catamaran. Developed overall software architecture, and worked on integrating position and state data from various sensors, writing motor controllers, and waypoint following, in addition fabricating and testing mechanical and electrical systems on autonomous surface vehicle. Designed a method to autonomously navigate around a shore using marine radar.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="page">
+      <h1>Awards</h1>
+      <div class="content">
+        <div class="project-left">
+          <img src="images/scope_small.jpg">
+          <p class="title_row"><b class="title">TODO</b> &nbsp; TODO [<a href="todo">link</a>]</p>
+          <p>TODO.</p>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+  </html>

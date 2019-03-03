@@ -1,0 +1,19 @@
+@InProceedings{10.1007/978-3-319-23335-2_8,
+author="Wirz, Jonas
+and Tranzatto, Marco
+and Liniger, Alex
+and Colombino, Marcello
+and Hesse, Henrik
+and Grammatico, Sergio",
+editor="Friebe, Anna
+and Haug, Florian",
+title="AEOLUS, the ETH Autonomous Model Sailboat",
+booktitle="Robotic Sailing 2015",
+year="2016",
+publisher="Springer International Publishing",
+address="Cham",
+pages="103--112",
+abstract="Path planning and control are particularly challenging tasks for a sailboat. In contrast to land vehicles or motorboats, the movement of a sailboat is heavily restricted by the wind direction. This paper focuses on the low-level control acting on the rudder and the sails. Specifically, a standard proportional controller and a non-linear controller have been implemented to track a reference heading. Further, special control algorithms that are activated during a tack or a jibe perform fast and smooth maneuvers. The path planner is based on the minimization of the weighted sum of different cost functions and allows for multi-objective optimization of the boat trajectory such as obstacle avoidance, time-to-target minimization and tactical behaviors.",
+isbn="978-3-319-23335-2"
+}
+

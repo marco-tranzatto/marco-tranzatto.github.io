@@ -1,0 +1,13 @@
+@article{doi:10.1002/rob.21839,
+author = {Bellicoso, C. Dario and Bjelonic, Marko and Wellhausen, Lorenz and Holtmann, Kai and Günther, Fabian and Tranzatto, Marco and Fankhauser, Péter and Hutter, Marco},
+title = {Advances in real-world applications for legged robots},
+journal = {Journal of Field Robotics},
+volume = {35},
+number = {8},
+pages = {1311-1326},
+doi = {10.1002/rob.21839},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.21839},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/rob.21839},
+abstract = {Abstract This paper provides insight into the application of the quadrupedal robot ANYmal in outdoor missions of industrial inspection (autonomous robot for gas and oil sites [ARGOS] challenge) and search and rescue (European Robotics League (ERL) Emergency Robots). In both competitions, the legged robot had to autonomously and semiautonomously navigate in real-world scenarios to complete high-level tasks such as inspection and payload delivery. In the ARGOS competition, ANYmal used a rotating light detection and ranging sensor to localize on the industrial site and map the terrain and obstacles around the robot. In the ERL competition, additional real-time kinematic–global positioning system was used to colocalize the legged robot with respect to a micro aerial vehicle that creates maps from the aerial view. The high mobility of legged robots allows overcoming large obstacles, for example, steps and stairs, with statically and dynamically stable gaits. Moreover, the versatile machine can adapt its posture for inspection and payload delivery. The paper concludes with insight into the general learnings from the ARGOS and ERL challenges.},,
+year = {2018}
+}
