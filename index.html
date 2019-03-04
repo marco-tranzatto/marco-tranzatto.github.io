@@ -15,8 +15,19 @@
           <img src="images/marco.png">
         </div>
         <div class="intro_text">
-          <p>Hi, my name is Marco and I am working as Robotics Software Engineer at the <a href="http://www.rsl.ethz.ch/">Robotic Systems Lab (RSL)</a> of <a href="http://www.ethz.ch">ETH Zürich</a>. I am the lead engineer of the RSL sub-team of <a href="https://www.subt-cerberus.org/">CERBERUS</a>, which is currently competing in the <a href="https://subtchallenge.com/">Darpa SubT Challenge</a></p>
-          <p>Before joining RSL, I worked for one year for the <a href="http://www.asl.ethz.ch/">Autonomous Systems Lab (ASL)</a>, </p>
+          <p>Hi, my name is Marco and I am working as Robotics Engineer at the <a href="http://www.rsl.ethz.ch/">Robotic Systems Lab (RSL)</a> of <a href="http://www.ethz.ch">ETH Zürich</a>.
+            I am the lead engineer for the quadruped robot ANYmal of the <a href="https://www.subt-cerberus.org/">CERBERUS</a> Team,
+            which is currently competing in the <a href="https://subtchallenge.com/">Darpa SubT Challenge</a>.</p>
+          <p>Before joining RSL, I worked for one year for the <a href="http://www.asl.ethz.ch/">Autonomous Systems Lab (ASL) - ETH Zurich</a>,
+            where I was part of the
+            <a href="http://www.asl.ethz.ch/the-lab/asl-news/2017/03/the-asl-and-rsl-showed-an-outstanding-team-performance-at-the-mbzirc-challenge-in-abu-dhabi.html">MBZIRC 2017 Team</a>
+            which scored 2nd place in the Grand Challenge.<br>
+            I also spent six months as Robtics Engineer in
+            <a href="http://www.aerotain.com/">Aerotain</a>, where I developed a ROS-based simulation for Skye, an indoor blimp.
+            Before that, I worked with a 10 person team developing an unmanned airship with acrobatic capabilities during
+            the summer <a href="https://www.youtube.com/watch?v=Sn8OMm8Q9m8">Zeppaloon</a> project with Kongsberg Maritime - Norway.
+            </p>
+            <p>Once in a while, I post pictures about ANYmal and in general about my work on my <a href="https://twitter.com/marco_1343">Twitter account</a>.</p>
           <p>[<a href="marcot@ethz.ch">marcot@ethz.c</a> | <a href="https://github.com/marco-tranzatto">github</a>]</p>
         </div>
     </div>
@@ -48,65 +59,7 @@
 
       <div class="page">
         <h1>Selected Projects</h1>
-        <h2>ETH Zürich</h2>
-        <div class="content">
-          <div class="project-left">
-            <img src="images/heli_pioneer_small.jpg">
-            <p class="title_row"><b class="title">Online Visual-Inertial Based Localization for Robots</b> [<a href="publications/iros_2015_localization.pdf">paper 1</a> | <a href="publications/iros_2015_mav.pdf">paper 2</a>]</p>
-            <p>I worked on integrating embedded stereo camera and IMU combination and visual-inertial odometry into a sparse mapping framework. The main goal of this work was to enable real-time on-board localization against a sparse map. I then investigated building dense volumetric maps (used for path planning) from keyframes in the sparse map. We showed this working on-board an MAV and ground robot localizing against the same map, allowing the MAV to autonomously land on top of the ground robot given its location from localization.</p>
-          </div>
-          <div class="project-left">
-            <img src="images/fpga_vision_small.png">
-            <p class="title_row"><b class="title">High-Speed Vision for Quadrotors</b> [<a href="publications/iros_2014_realtime_lowlatency_hardware.pdf">paper 1</a> | <a href="publications/icra_2015_reactive_avoidance.pdf">paper 2</a>]</p>
-            <p>I integrated a high-speed vision system on FPGA onto a quadrotor system and designed a system for doing high-speed obstacle avoidance on a computationally constrained platform. I also wrote position estimators and position controllers to allow the quad to operate indoors and outdoors without GPS or Vicon using the <a href="https://pixhawk.org/modules/px4flow">PX4 optical flow</a> sensor. I also wrote calibration and processing for the Android-based mobile platform on the FPGA vision system.</p>
-          </div>
-        </div>
-        <h2>Google</h2>
-        <div class="content">
-          <div class="project-left">
-            <img src="images/sv_small.jpg">
-            <p class="title_row"><b class="title">Street Number Detection from Street View Imagery</b></p>
-            <p>I worked on the pipeline used to automatically detect and transcribe street numbers from imagery in order to improve maps data.</p>
-          </div>
-          <div class="project-left">
-            <img src="images/sv2_small.jpg">
-            <p class="title_row"><b class="title">Automatic Image Enhancement for Older Imagery</b></p>
-            <p>We created a system for automatically enhancing images using single-image HDR techniques. Learned ideal parameters for the algorithm by training a classifier based on data from a user study of preferences.</p>
-          </div>
-          <div class="project-left">
-            <img src="images/sv3_small.jpg">
-            <p class="title_row"><b class="title">Classification of Landmark Imagery</b></p>
-            <p>Designed features and trained classifiers for automatically detecting several types of attractive or important landmark imagery. For example, collected data and chose features for classifying imagery that looks over water or shows a city skyline.</p>
-          </div>
-        </div>
-
-        <h2>Willow Garage</h2>
-        <div class="content">
-          <div class="project-left">
-            <img src="images/turtlebot_arm_small.png">
-            <p class="title_row"><b class="title">TurtleBot Arm - Calibration and Applications</b> [<a href="http://wiki.ros.org/turtlebot_arm?distro=electric">website</a>]</p>
-            <p>Worked on a low-cost robot arm for hobbyist robotics. Built a system for robust camera-to-arm calibration, created documentation and assembly instructions for hobbyists, and created tools and demos.</p>
-          </div>
-          <div class="project-left">
-            <img src="images/vslam_small.jpg">
-            <p class="title_row"><b class="title">Visual SLAM</b> [<a href="http://wiki.ros.org/vslam">website</a> | <a href="https://www.youtube.com/watch?v=TR8BMZj-Udc">video</a>]</p>
-            <p>Worked on implementation of Visual SLAM (Simultaneous Localization and Mapping) using stereo image data in ROS (Robot Operating System). Developed and refined API, wrote documentation, and implemented new features such as integration of pointcloud matches from laser-based sensors into Visual SLAM.</p>
-          </div>
-        </div>
-
-        <h2>Olin College</h2>
-        <div class="content">
-          <div class="project-left">
-            <img src="images/scope_small.jpg">
-            <p class="title_row"><b class="title">Ping-Pong Playing Robot</b> &nbsp; Senior Consulting Project for ADSYS [<a href="https://www.youtube.com/watch?v=sxqWVtp4Vgo">video</a>]</p>
-            <p>Technical lead on team of 4 that designed, built, and programmed robot capable of playing ping-pong against human player. This was a technical demo for a high-speed vision system developed by a sponsor company. Was responsible for vision, detection, modeling, and state estimation of the ping-pong ball.</p>
-          </div>
-          <div class="project-left">
-            <img src="images/medea_small.jpg">
-            <p class="title_row"><b class="title">Autonomous Shore Navigation Using Marine Radar</b> [<a href="#oceans"oceans>paper</a> | <a href="https://www.youtube.com/watch?v=pTDT7HkfwJM">video</a>]</p>
-            <p>Worked on an autonomoous marine surface vehicle, based on a 12 foot Catamaran. Developed overall software architecture, and worked on integrating position and state data from various sensors, writing motor controllers, and waypoint following, in addition fabricating and testing mechanical and electrical systems on autonomous surface vehicle. Designed a method to autonomously navigate around a shore using marine radar.</p>
-          </div>
-        </div>
+        <h2>TODO</h2>
 
       </div>
     </div>
@@ -121,6 +74,13 @@
         </div>
 
       </div>
+    </div>
+
+    <div class="page">
+      <div class="content">
+        <p>Page layout and css style are an approved copy from <a href="http://helenol.github.io/"> Helen(!!!) Oleynikova's website</a>. </p>
+      </div>
+
     </div>
 
   </body>
