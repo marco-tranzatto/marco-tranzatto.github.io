@@ -1,0 +1,10 @@
+@article{dang2020graph,
+  title={Graph-based subterranean exploration path planning using aerial and legged robots},
+  author={Dang, Tung and Tranzatto, Marco and Khattak, Shehryar and Mascarich, Frank and Alexis, Kostas and Hutter, Marco},
+  journal={Journal of Field Robotics},
+  volume={37},
+  number={8},
+  pages={1363--1388},
+  year={2020},
+  publisher={Wiley Online Library}
+}
