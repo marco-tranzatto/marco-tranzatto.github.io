@@ -1,9 +1,0 @@
-@article{bahnemann2019eth,
-  title={The ETH-MAV team in the MBZ international robotics challenge},
-  author={B{\"a}hnemann, Rik and Pantic, Michael and Popovi{\'c}, Marija and Schindler, Dominik and Tranzatto, Marco and Kamel, Mina and Grimm, Marius and Widauer, Jakob and Siegwart, Roland and Nieto, Juan},
-  journal={Journal of Field Robotics},
-  volume={36},
-  number={1},
-  pages={78--103},
-  year={2019}
-}
